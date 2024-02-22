@@ -106,18 +106,18 @@ nav li {
   margin: 10px;
   margin-left: -2rem;
   list-style: "";
+}
 
-  a {
-    text-decoration: none;
-  }
+nav a {
+  text-decoration: none;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+nav a:hover {
+  text-decoration: underline;
+}
 
-  a:active {
-    font-style: normal;
-  }
+nav a:active {
+  font-style: normal;
 }
 
 /* Links */
