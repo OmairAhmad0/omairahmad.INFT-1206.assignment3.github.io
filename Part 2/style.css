@@ -4,10 +4,23 @@ html {
 
 /* Your CSS below here */
 .box {
+  /* Box Size */
   width: 200px;
   height: 150px;
   line-height: 150px;
+
+  /* Box Styling */
+  border-radius: 15px;
+  background-color: rgb(209, 40, 83);
+  border: 1px solid rgb(158, 36, 77);
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 30%);
+  box-shadow: 2px 2px 5px black,
+    inset 2px 2px 5px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.5);
+
+  /* Box Text */
   text-align: center;
   font-size: 1.125rem;
-  border: 1px solid black;
+  color: wheat;
+  text-shadow: 1px 1px 5px black;
 }
