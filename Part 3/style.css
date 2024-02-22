@@ -81,3 +81,22 @@ body {
 h2 + p {
   text-indent: 20px;
 }
+
+a {
+  color: #a66;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  font-style: italic;
+}
+
+a[href^="http"] {
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 13px 13px;
+  padding-right: 16px;
+}
