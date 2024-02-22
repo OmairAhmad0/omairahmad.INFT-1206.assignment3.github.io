@@ -31,15 +31,41 @@ footer {
   clear: both;
 }
 
-header, section, aside, nav, footer {
+header,
+section,
+aside,
+nav,
+footer {
   padding: 20px;
 }
 
 /* header and footer */
 
-header, footer {
+header,
+footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: "Cinzel";
+  src: url(https://fonts.gstatic.com/s/cinzel/v23/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2);
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2);
+}
+
+h1 {
+  font-family: "Cinzel";
+}
+
+h2 {
+  font-family: "Cinzel";
+}
+
+body {
+  font-family: "Merriweather";
+}
