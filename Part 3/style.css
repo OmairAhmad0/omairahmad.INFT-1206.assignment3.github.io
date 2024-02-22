@@ -58,6 +58,8 @@ footer {
   src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZM.woff2);
 }
 
+/* Headers */
+
 h1 {
   font-family: "Cinzel";
   font-size: 2.5rem;
@@ -70,7 +72,10 @@ h2 {
   font-size: 1.5rem;
 }
 
-body {
+/* Paragraphs and Lists */
+
+p,
+li {
   font-family: "Merriweather";
   font-size: 10px;
   line-height: 1.2rem;
@@ -78,9 +83,44 @@ body {
   word-spacing: 2px;
 }
 
-h2 + p {
+h2+p {
   text-indent: 20px;
 }
+
+ul {
+  list-style: "\2765 ";
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+/* Navigation Menu */
+
+nav li {
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #a66;
+  width: 15rem;
+  padding: 30px;
+  margin: 10px;
+  margin-left: -2rem;
+  list-style: "";
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    font-style: normal;
+  }
+}
+
+/* Links */
 
 a {
   color: #a66;
