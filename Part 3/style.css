@@ -60,12 +60,24 @@ footer {
 
 h1 {
   font-family: "Cinzel";
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 10px;
 }
 
 h2 {
   font-family: "Cinzel";
+  font-size: 1.5rem;
 }
 
 body {
   font-family: "Merriweather";
+  font-size: 10px;
+  line-height: 1.2rem;
+  letter-spacing: 0.75px;
+  word-spacing: 2px;
+}
+
+h2 + p {
+  text-indent: 20px;
 }
